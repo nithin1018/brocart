@@ -1,1 +1,1 @@
-web: gunicorn brocart.wsgi:application --bind 0.0.0.0:10000
+web: gunicorn brocart.brocart.wsgi:application --bind 0.0.0.0:10000
